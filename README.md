@@ -6,7 +6,7 @@ A responsive weather web app built with **HTML, CSS, and JavaScript**. It fetche
 
 🚀 [Live Demo](https://www.codedex.io/68pgEVgKw7iOgLcd6IBQ/live)
 
-![Weather App Screenshot](assets/preview.png)
+![Weather App Screenshot](/assets/preview.png)
 
 ## ✨ Features
 
