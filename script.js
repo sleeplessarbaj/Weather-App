@@ -39,14 +39,17 @@ async function fetchWeather() {
 
     weatherDataSection.style.display = "flex";
     weatherDataSection.innerHTML = `
-      <img src="${data.current.condition.icon}" alt="${data.current.condition.text}" width="100" />
-      <div>
-        <h2>${data.location.name}, ${data.location.country}</h2>
-        <p><strong>Temperature:</strong> ${data.current.temp_c}°C</p>
-        <p><strong>Condition:</strong> ${data.current.condition.text}</p>
-        <p><strong>Feels like:</strong> ${data.current.feelslike_c}°C</p>
-      </div>
-    `;
+  <img src="${data.current.condition.icon}" alt="${data.current.condition.text}" width="100" />
+  <div>
+    <h2>${data.location.name}, ${data.location.country}</h2>
+    <p><strong>Temperature:</strong> ${data.current.temp_c}°C</p>
+    <p><strong>Condition:</strong> ${data.current.condition.text}</p>
+    <p><strong>Feels like:</strong> ${data.current.feelslike_c}°C</p>
+    <p><strong>Humidity:</strong> ${data.current.humidity}%</p>
+    <p><strong>Wind Speed:</strong> ${data.current.wind_kph} km/h</p>
+  </div>
+`;
+
   } catch (error) {
     console.error("Weather fetch error:", error);
     weatherDataSection.style.display = "block";
