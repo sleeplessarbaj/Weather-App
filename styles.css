@@ -5,15 +5,14 @@
 }
 
 body {
-  background-image: url(https://bit.ly/4bcK1Hc);
-  background-repeat: no-repeat;
+  background-color: #7E7468;
   background-size: cover;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 100vh;
 }
 
 main {
-  background-color: rgba(227, 193, 173, 0.85);
+  background-color: #4C423A;
   position: relative;
   top: 30%;
   border: 1px solid;
@@ -26,6 +25,7 @@ main {
 
 h1 {
   margin-bottom: 20px;
+  color: #FF7043;
 }
 
 #search {

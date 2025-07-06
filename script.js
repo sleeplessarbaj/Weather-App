@@ -1,11 +1,9 @@
 async function fetchWeather() {
-  console.log("Search triggered!");
-
   const searchInput = document.getElementById('search').value.trim();
   const weatherDataSection = document.getElementById("weather-data");
   weatherDataSection.style.display = "none"; 
 
-  const apiKey = "Api key"; // WeatherAPI.com key
+  const apiKey = "Api Key"; // WeatherAPI.com key
 
   if (searchInput === "") {
     console.log("Empty input!");
