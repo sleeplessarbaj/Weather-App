@@ -27,6 +27,13 @@ A responsive weather web app built with **HTML, CSS, and JavaScript**. It fetche
 
 ## 🔑 Setup Instructions
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sleeplessarbaj/weather-app.git
+cd weather-app
+```
+
 2. Get Your API Key  
 Sign up at [WeatherAPI](https://www.weatherapi.com/) and get your free API key.
 
@@ -37,7 +44,6 @@ In `script.js`, replace:
 const apiKey = "Api Key";
 
 const apiKey = "your_actual_api_key";
-
 
 📁 Project Structure
 
