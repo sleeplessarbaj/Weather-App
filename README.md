@@ -35,9 +35,10 @@ A responsive weather web app built with **HTML, CSS, and JavaScript**. This app 
 
 ## 🚀 Getting Started
 
+```
 ### 1. Clone the Repository
 
-```bash
+bash
 git clone https://github.com/sleeplessarbaj/Weather-App
 cd weather-app
 
